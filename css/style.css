@@ -1,0 +1,81 @@
+body {
+    padding-top: 50px;
+    color: yellow;
+    background-color: black;
+}
+
+.em-text {
+    color: #3498eb !important;
+}
+
+.form {
+    display: table !important;
+    border: 5px solid white;
+    text-align: center !important;
+    background-color: #d2f50b;
+    color: brown;
+    max-width: 330px;
+    padding: 30px;
+    margin: auto;
+}
+
+.jumbotron {
+    background: url("../images/BookLib.jpg") top center !important;
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+}
+
+.badge {
+    position: absolute;
+    top: 05px;
+    padding: 3px 5px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 250px;
+}
+
+.name {
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    padding: 5px;
+    background: #333;
+    color: #fff;
+}
+
+.game {
+    border: 10px;
+}
+
+.price {
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    padding: 5px;
+    background: #fff;
+    color: #030303;
+}
+
+.game-add {
+    margin: 5px auto 20px auto;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
