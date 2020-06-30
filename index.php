@@ -103,7 +103,6 @@ if (isset($_GET["action"])) {
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
           <!--/.drop down  -->
           <li>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></a>
@@ -122,8 +121,6 @@ if (isset($_GET["action"])) {
               ?>
             </ul>
           </li>
-
-          <li><a href="#">Contact</a></li>
         </ul>
         <!--/.search  -->
         <form class="navbar-form navbar-left" role="search">
@@ -154,8 +151,6 @@ if (isset($_GET["action"])) {
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 <i class="glyphicon glyphicon-user"></i> <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Notification</a></li>
-                <li><a href="#">Purchase History</a></li>
                 <li><a href="user_account.php">Account</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="#">Help</a></li>
